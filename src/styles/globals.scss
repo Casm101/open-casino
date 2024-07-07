@@ -1,0 +1,22 @@
+@import "./reset.scss";
+
+// Component styles
+@import "./component-styles/carousel-styles.scss";
+@import "./component-styles/footer-styles.scss";
+@import "./component-styles/gamecard-styles.scss";
+@import "./component-styles/grid-styles.scss";
+@import "./component-styles/header-styles.scss";
+@import "./component-styles/heading-styles.scss";
+
+html {
+  background: #eaeaea;
+}
+
+.content-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+
+  padding-top: 6rem;
+}

@@ -1,0 +1,32 @@
+.carouselStyled {
+  position: relative;
+  width: 100%;
+  height: auto;
+  margin: auto;
+  overflow: hidden;
+
+  .carousel-slide img {
+    width: 100%;
+  }
+
+  .carousel-dots {
+    text-align: center;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+
+    .dot {
+      cursor: pointer;
+      display: inline-block;
+      margin: 0 5px;
+      font-size: 20px;
+      color: white;
+
+      &.active {
+        color: red;
+      }
+    }
+  }
+}
